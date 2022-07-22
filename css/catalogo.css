@@ -1,0 +1,156 @@
+.encabezado {
+    width: 100%;
+    height: 6rem;
+    background-color: rgb(200, 207, 212);
+    padding-top: 2rem;
+}
+
+.encabezado p {
+    text-align: center;
+    font-size: medium;
+}
+
+.encabezado div {
+    font-size: medium;
+    margin-left: 30rem;
+    margin-bottom: 3rem;
+}
+
+.seccion_general {
+    display: grid; 
+   grid-template-columns: repeat(4,8rem);
+   grid-template-rows: repeat(8,7.6rem);
+   gap: 1rem;
+}
+
+.ejemplo1 {
+    width: 70%;
+    height: auto;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.uno {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.titulo1 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.uno p {
+    font-size: medium;
+}
+
+.label1, .label2 {
+    text-decoration: none;
+    height: 1.5rem;
+    width: 33%;
+    background-color: rgb(110, 110, 110);
+    color: aliceblue;
+    margin-top: 3rem;
+    grid-column-end: 1;
+}
+
+.ejemplo2 {
+    width: 70%;
+    height: auto;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.titulo2 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2; 
+}
+
+.label3 {
+    text-decoration: none;
+    width: 33%;
+    height: 1.5rem;
+    background-color: rgb(110, 110, 110);
+    color: aliceblue;
+    grid-column-start: 2;  
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.ejemplo3 {
+    width: 70%;
+    height: auto;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 8;
+}
+
+.titulo3 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 4;  
+}
+
+.label4, .label5, .label6, .label7 {
+    text-decoration: none;
+    width: 33%;
+    height: 1.5rem;
+    background-color: rgb(110, 110, 110);
+    color: aliceblue;  
+}
+
+.ejemplo4 {
+    width: 70%;
+    height: auto;
+}
+
+.footer {
+    width: 100%;
+    height: 11rem;
+    border-top: 1px solid black;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 8;
+}
+
+.home {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.brujula {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 5rem;
+}
+
+.lupa {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 5rem;
+}
+
+.comment {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 5rem;
+}
+
+.notificaciones {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 5rem;
+}
